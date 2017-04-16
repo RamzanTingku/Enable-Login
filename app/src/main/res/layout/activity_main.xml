@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.ramzanullah.login.MainActivity">
+
+
+    <Button
+        android:id="@+id/Reg"
+        android:onClick="btn_Reg"
+
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="145dp"
+        android:layout_height="40dp"
+        android:background="@color/colorAccent"
+        android:text="Register"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <Button
+        android:id="@+id/logIn"
+        android:onClick="btn_Login"
+        android:layout_width="145dp"
+        android:layout_height="40dp"
+        android:background="?android:attr/colorEdgeEffect"
+        android:text="LogIn"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log in First"
+        android:textColorLink="@android:color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor=""
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="16dp" />
+</android.support.constraint.ConstraintLayout>
